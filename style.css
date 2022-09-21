@@ -1,0 +1,388 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 77px;
+    margin-bottom: 66px;
+}
+
+.signup{
+    background-color: #fff;
+    text-align: center;
+    padding: 10% 10%;
+    margin-bottom: 176px;
+}
+
+.signup__title{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #2C2C2C;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.social__soc-butt--fb{
+    border: 1px solid #C7CED3;
+    border-radius: 4px;
+    padding: 8px 30px;
+    text-align: center;
+    vertical-align: middle;
+    height: 30%;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.social__butt-img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.social__butts{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+
+.social__soc-butt--google{
+    border: 1px solid #C7CED3;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 30px;
+    vertical-align: center;
+    height: 30%;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.social__soc-butt--apple{
+    border: 1px solid #C7CED3;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 30px;
+    vertical-align: middle;
+    height: 30%;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.social__soc-butt--apple:hover{
+    border-color: #0777CF;
+    cursor: pointer;
+}
+
+.social__soc-butt--google:hover{
+    border-color: #0777CF;
+    cursor: pointer;
+}
+
+.social__soc-butt--fb:hover{
+    border-color: #0777CF;
+    cursor: pointer;
+}
+
+.social__soc-butt--apple:focus{
+    border: 1px solid #0777CF;
+    box-shadow: 0px 0px 0px 1px #FFFFFF, 0px 0px 0px 3px #667988;
+    border-radius: 4px;
+}
+
+.social__soc-butt--google:focus{
+    border: 1px solid #0777CF;
+    box-shadow: 0px 0px 0px 1px #FFFFFF, 0px 0px 0px 3px #667988;
+    border-radius: 4px;
+}
+
+.social__soc-butt--fb:focus{
+    border: 1px solid #0777CF;
+    box-shadow: 0px 0px 0px 1px #FFFFFF, 0px 0px 0px 3px #667988;
+    border-radius: 4px;
+}
+
+.text__text-sign{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #546470;
+}
+
+.text__text-sign:before{
+    content:'';display:inline-block;vertical-align:middle;
+    box-sizing:border-box;width:15%;margin-right: 2%;
+    background: #D8E0E6;
+    border: 1px solid #D8E0E6;
+    border-radius: 4px;
+}
+
+.text__text-sign:after {
+    content:'';display:inline-block;vertical-align:middle;
+    box-sizing:border-box;width: 15%;margin-left: 2%;
+    background: #D8E0E6;
+    border: 1px solid #D8E0E6;
+    border-radius: 4px;
+}
+
+.form__email{
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid #81919D;
+    border-radius: 4px;
+    padding: 12px 0 12px 12px;
+}
+
+.form__pass{
+    margin-top: 16px;
+    margin-bottom: 28px;
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid #81919D;
+    border-radius: 4px;
+    padding: 12px 0 12px 12px;
+}
+
+.form__butt-start{
+    padding: 12px 42px;
+    gap: 10px;
+    width: 100%;
+    background: #0777CF;
+    border: #0777CF;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textform{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #546470;
+}
+
+
+.login__text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2C2C;
+}
+
+.login_privacy-text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #667988;
+}
+
+.login_privacy-text a{
+    color: #667988;    
+}
+
+@media(min-width: 390px){
+    .signup{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}
+
+@media(min-width: 440px){
+    .signup{
+        width: 55%;
+    }
+}
+
+
+@media(min-width: 560px){
+    .signup{
+        width: 43%;
+    }
+}
+
+@media(min-width: 650px){
+    .signup{
+        width: 38%;
+    }
+}
+
+
+@media(min-width: 780px){
+    .signup{
+        width: 43%;
+    }
+
+    .social{
+        justify-content: space-between;
+        flex-direction: unset;
+    }
+
+    .social__soc-butt--fb{
+        font-size: 12px;
+        padding: 8px 18px;
+        width: 32%;
+    }
+
+    .social__soc-butt--google{
+        margin-top: 0px;
+        font-size: 12px;
+        padding: 8px 18px;
+        width: 30%;
+    }
+
+    .social__soc-butt--apple{
+        margin-top: 0px;
+        font-size: 12px;
+        padding: 8px 18px;
+        width: 30%;
+    }
+
+    .social__butt-img {
+        margin-right: 7px;
+    }
+}
+
+
+@media(min-width: 820px){
+    .signup{
+        width: 38%;
+    }
+    .text__text-sign:before{
+        width: 23%;
+    }
+
+    .text__text-sign:after{
+        width: 23%;
+    }
+
+    .signup{
+        padding: 40px 64px;
+    }
+}
+
+@media(min-width: 1020px){
+    .signup{
+        width: 33%;
+    }
+
+    .text__text-sign:before{
+        width: 25%;
+    }
+
+    .text__text-sign:after{
+        width: 25%;
+    }
+}
+
+@media(min-width: 1120px){
+    .signup{
+        width: 30%;
+    }
+}
+
+@media(min-width: 1220px){
+    .text__text-sign:before{
+        width: 27%;
+    }
+
+    .text__text-sign:after{
+        width: 27%;
+    }
+}
+
+@media(min-width: 1350px){
+    .text__text-sign:before{
+        width: 29%;
+    }
+
+    .text__text-sign:after{
+        width: 29%;
+    }
+
+    .social__soc-butt--fb{
+        font-size: 14px;
+    }
+
+    .social__soc-butt--google{
+        font-size: 14px;
+    }
+
+    .social__soc-butt--apple{
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width: 1520px){
+    .text__text-sign:before{
+        width: 30%;
+    }
+
+    .text__text-sign:after{
+        width: 30%;
+    }
+
+    .social__soc-butt--fb{
+        padding: 8px 30px;
+    }
+
+    .social__soc-butt--google{
+        padding: 8px 30px;
+    }
+
+    .social__soc-butt--apple{
+        padding: 8px 30px;
+    }
+
+    .social__butt-img {
+        margin-right: 10px;
+    }
+
+    .text__text-sign {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+    .signup__title{
+        margin-bottom: 36px;
+    }
+
+    .login{
+        margin-top: 28px;
+    }
+}
+
+@media(min-width: 1630px){
+    .text__text-sign:before{
+        width: 32%;
+    }
+
+    .text__text-sign:after{
+        width: 32%;
+    }
+}
